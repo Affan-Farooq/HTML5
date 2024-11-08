@@ -1,0 +1,180 @@
+body {
+    background-color: #000000;
+}
+
+#navbar {
+    padding: 1rem 1rem;
+    background-color: #0F0F0F;
+    margin-bottom: 9rem;
+}
+
+nav {
+    background-color: #0F0F0F;
+}
+
+.footer img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.footer {
+    margin-top: 8rem;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+
+.socials:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.nav-title {
+    display: inline-block;
+}
+
+#title {
+    font-family: 'M PLUS Code Latin', monospace;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 0px 0px 30px #05595B, 0px 0px 15px #05595B;
+}
+
+#navbar a:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.nav-buttons {
+    margin: 0.2rem 0rem;
+    padding: 0.5rem 0rem;
+    display: block;
+    float: right;
+}
+
+@media (max-width: 1250px) {
+    #title {
+        font-size: 2.5rem;
+    }
+
+    .nav-buttons {
+        padding-top: 1rem;
+        float: none;
+    }
+
+    .nav-title {
+        display: block;
+    }
+
+    #navbar {
+        text-align: center;
+    }
+}
+
+@media (max-width: 607px) {
+    .btn-responsive {
+        padding: 5px 5px;
+        font-size: 0.8rem;
+        line-height: 1.5;
+        border-radius: 0.1rem;
+    }
+}
+
+@media (max-width: 581px) {
+    #title {
+        font-size: 1.5rem;
+    }
+
+    #navbar a:not(:last-child) {
+        margin-right: 0.2rem;
+    }
+
+    #navbar {
+        padding-bottom: 0.25rem;
+    }
+
+    .nav-buttons {
+        padding-top: 0.25rem;
+    }
+}
+
+@media (max-width: 307px) {
+    #title {
+        font-size: 1.2rem;
+    }
+}
+
+.btn-outline-primary {
+    background-color: #000000;
+    border-color: #05595B;
+    color: #05595B;
+}
+
+.btn-outline-primary:hover {
+    background-color: #05595B;
+    border-color: #EEEBDD;
+    color: #EEEBDD;
+}
+
+.custom-border {
+    background-color: #0F0F0F;
+    border: 1px solid #05595B;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    color: #089A9E;
+    margin-top: 10px;
+}
+
+.badge {
+    display: inline-block;
+    font-size: 1rem;
+    color: #089A9E;
+}
+
+.badge .bg-secondary {
+    background-color: black!important;
+    border: 1px solid #05595B;
+}
+
+#pp {
+    width: 12rem;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #05595B;
+    margin: auto;
+}
+
+#ppclm {
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Ubuntu Mono', monospace;
+    text-shadow: 0 0 6px #089A9E, 0 0 12px #089A9E;
+    color: white;
+}
+
+@media (max-width: 991px) {
+    #navbar {
+        margin-bottom: 5rem;
+    }
+
+    .footer {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 343px) {
+    .btn-responsive {
+        padding: 3.85px 3.85px;
+        font-size: 0.6rem;
+        line-height: 1.5;
+        border-radius: 0.1rem;
+    }
+}
+
+.footer {
+    padding-bottom: 13.5rem;
+}
