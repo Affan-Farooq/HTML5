@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character Encoding for UTF-8 -->
+    <meta charset="UTF-8">
+    
+    <!-- Responsive Design Settings -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page Title -->
+    <title>HTML5 Form Validation</title>
+    
+    <!-- Meta Description for SEO -->
+    <meta name="description" content="An advanced guide to HTML5 form validation, including required fields, pattern matching, and custom error messages.">
+</head>
+<body>
+    <!-- Main Header of the Document -->
+    <header>
+        <h1>HTML5 Form Validation</h1>
+        <p>This document demonstrates HTML5 form validation techniques for creating robust and user-friendly forms.</p>
+    </header>
 
+    <!-- Form Structure with Required Fields -->
+    <section>
+        <h2>Basic Form with Required Fields</h2>
+        <form action="/submit" method="post">
+            <!-- Name Field with Required Validation -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            <br><br>
+
+            <!-- Email Field with Required Validation -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+            <br><br>
+        </form>
+    </section>
+</body>
+</html>
