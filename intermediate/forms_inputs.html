@@ -14,5 +14,28 @@
     <meta name="description" content="An introduction to creating forms and using various input types in HTML.">
 </head>
 <body>
+    <!-- Main Header of the Document -->
+    <header>
+        <h1>Creating Forms and Inputs in HTML</h1>
+        <p>This document covers how to build a form in HTML, demonstrating different types of inputs such as text fields, email fields, and submit buttons.</p>
+    </header>
+
+    <!-- Basic Form Structure with Text Inputs -->
+    <section>
+        <h2>Basic Form Structure</h2>
+        <p>HTML forms are created using the <code>&lt;form&gt;</code> tag, which can contain a variety of input elements. Here’s an example form with text and email inputs:</p>
+
+        <form action="/submit" method="post">
+            <!-- Text Input Field with Label -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <br><br>
+            
+            <!-- Email Input Field with Label -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <br><br>
+        </form>
+    </section>
 </body>
 </html>
