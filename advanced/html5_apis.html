@@ -65,5 +65,24 @@
             }
         </script>
     </section>
+
+    <!-- Section for Canvas API -->
+    <section>
+        <h2>Canvas API</h2>
+        <p>The Canvas API allows you to draw graphics and create animations. This example draws a simple circle on the canvas.</p>
+        <canvas id="myCanvas" width="200" height="200" style="border:1px solid #000;"></canvas>
+
+        <script>
+            const canvas = document.getElementById("myCanvas");
+            const ctx = canvas.getContext("2d");
+
+            // Draw a circle
+            ctx.beginPath();
+            ctx.arc(100, 100, 50, 0, 2 * Math.PI);
+            ctx.fillStyle = "blue";
+            ctx.fill();
+            ctx.stroke();
+        </script>
+    </section>
 </body>
 </html>
