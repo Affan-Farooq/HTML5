@@ -30,5 +30,33 @@
         
         <p><strong>Note:</strong> The <code>alt</code> attribute provides text for screen readers and helps with accessibility.</p>
     </section>
+
+    <!-- Audio Section -->
+    <section>
+        <h2>Audio</h2>
+        <p>To embed audio, use the <code>&lt;audio&gt;</code> tag with the <code>controls</code> attribute to enable playback controls.</p>
+
+        <!-- Example Audio Element with Controls -->
+        <audio controls>
+            <source src="audio_sample.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <p><strong>Note:</strong> Always include a fallback message for unsupported browsers.</p>
+    </section>
+
+    <!-- Video Section -->
+    <section>
+        <h2>Video</h2>
+        <p>To embed video, use the <code>&lt;video&gt;</code> tag with the <code>controls</code> attribute for playback options like play, pause, and volume.</p>
+
+        <!-- Example Video Element with Controls -->
+        <video width="400" height="300" controls>
+            <source src="video_sample.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <p><strong>Note:</strong> Similar to audio, include a fallback message for browsers that don’t support the video element.</p>
+    </section>
 </body>
 </html>
