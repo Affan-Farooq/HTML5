@@ -42,5 +42,28 @@
             }
         </script>
     </section>
+
+    <!-- Section for Web Storage API -->
+    <section>
+        <h2>Web Storage API (Local Storage)</h2>
+        <p>The Web Storage API provides a way to store key-value data in the browser. Here we use Local Storage to save and retrieve data.</p>
+        <input type="text" id="name" placeholder="Enter your name">
+        <button onclick="saveName()">Save Name</button>
+        <button onclick="retrieveName()">Retrieve Name</button>
+        <p id="storedName"></p>
+
+        <script>
+            function saveName() {
+                const name = document.getElementById("name").value;
+                localStorage.setItem("userName", name);
+                alert("Name saved!");
+            }
+
+            function retrieveName() {
+                const name = localStorage.getItem("userName");
+                document.getElementById("storedName").innerHTML = name ? "Stored Name: " + name : "No name stored.";
+            }
+        </script>
+    </section>
 </body>
 </html>
