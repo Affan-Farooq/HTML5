@@ -67,7 +67,7 @@ To make the most of this basics directory, follow this recommended order:
 
 ## Additional Resources
 
-To deepen your understanding, consider exploring these resources:
+To deepen your understanding, consider exploring the following resources:
 - [MDN Web Docs - HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 - [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
 - [HTML Living Standard - WHATWG](https://html.spec.whatwg.org/multipage/)
