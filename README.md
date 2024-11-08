@@ -1,7 +1,3 @@
-Here’s an updated README for your **HTML5** repository, emphasizing that this work reflects your personal learning journey and project development with HTML5.
-
----
-
 # HTML5 Repository
 
 Welcome to my **HTML5** repository! This repository is a comprehensive collection of my work in HTML5, covering everything from fundamental concepts to advanced topics. Each section showcases my exploration and practice with HTML5 features, organized into structured sections for my own development and reference. Feel free to explore and see how I’ve applied these HTML concepts in a practical context.
