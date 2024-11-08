@@ -19,5 +19,28 @@
         <h1>Exploring HTML5 APIs</h1>
         <p>This document demonstrates popular HTML5 APIs and how they enhance user interaction and data handling in web applications.</p>
     </header>
+
+    <!-- Section for Geolocation API -->
+    <section>
+        <h2>Geolocation API</h2>
+        <p>The Geolocation API allows you to get the user’s current location, which can be used to personalize content based on geographical data.</p>
+        <button onclick="getLocation()">Get Location</button>
+        <p id="location"></p>
+
+        <script>
+            function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else {
+                    document.getElementById("location").innerHTML = "Geolocation is not supported by this browser.";
+                }
+            }
+
+            function showPosition(position) {
+                document.getElementById("location").innerHTML = "Latitude: " + position.coords.latitude + 
+                "<br>Longitude: " + position.coords.longitude;
+            }
+        </script>
+    </section>
 </body>
 </html>
