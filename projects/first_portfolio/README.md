@@ -40,42 +40,18 @@ The portfolio site is a single-page application organized into multiple sections
 
 ---
 
-## File Structure
-
-The project is organized as follows:
-
-```plaintext
-my-portfolio-website/
-├── assets/
-│   ├── icons/            # Icons for social media and projects
-│   └── images/           # Decorative images used on different sections
-├── index.html            # Homepage file with links to different sections
-├── about.html            # About Me page
-├── projects.html         # Projects showcase page
-├── contact.html          # Contact Me page with form
-├── index.js              # JavaScript file for the homepage
-├── about.js              # JavaScript file for the About page
-├── projects.js           # JavaScript file for the Projects page
-├── styles.css            # Global styles for the website
-├── about.css             # Styles specific to the About page
-├── projects.css          # Styles specific to the Projects page
-└── contact.css           # Styles specific to the Contact page
-```
-
----
-
 ## Setup
 
 To set up this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Affan-Farooq/my-portfolio-website.git
+   git clone https://github.com/Affan-Farooq/HTML5/tree/main/projects/first_portfolio.git
    ```
    
 2. **Navigate to the project directory**:
    ```bash
-   cd my-portfolio-website
+   cd HTML5/projects/first_portfolio
    ```
    
 3. **Open `index.html` in your browser** to view the homepage.
@@ -97,7 +73,7 @@ To set up this project locally, follow these steps:
    - To add more projects, copy an existing project card structure in `projects.html`, update the image source, title, description, tech stack, and GitHub link as needed.
 
 4. **Styling**:
-   - Customize colors, fonts, and layout in the `styles.css`, `about.css`, `projects.css`, and `contact.css` files.
+   - Customize colors, fonts, and layout in the associated .css files.
    - Fonts are imported from Google Fonts, allowing easy changes to the typography by updating the `font-family` properties in the CSS files.
 
 ---
